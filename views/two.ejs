@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Two</title>
+    <link rel="stylesheet" href="/css/frustration.css">
+</head>
+<body>
+    <br>
+    <p id="typewriter" class="type"></p>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const text = "You come across a an old newspaper near the lake.";
+            let i = 0;
+            function typeWriter() {
+                if (i < text.length) {
+                    document.getElementById("typewriter").innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, 50);
+                }
+            }
+            typeWriter();
+        });
+    </script>
+    <h2>Can you find the missing code piece? </h2>
+    <br>
+    <img src="images/brainrot_newspaper.png" alt="brainrot_newspaper" class="newspaper" style="margin:0; padding: 0;">
+    <a href="/three"><div class="map-div"><img src="/images/map3.png" alt="map3" class="map3"></div></a>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1.5em;
+    color: #050505;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #050505;
+    font-family: "Sue Ellen Francisco", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.sue-ellen-francisco-regular {
+    font-family: "Sue Ellen Francisco", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.newspaper {
+    z-index: 1;
+    height: 250vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.map3 {
+    transform: scale(0.07);
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: absolute;
+    top: 200%;
+    left: 0;
+}
+
+.map-div {
+   transform: translate(-600px, -510px);
+   z-index: 1000;
+   position: absolute;
+}

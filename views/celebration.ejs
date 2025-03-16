@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="/css/celebration.css">
+    <title>Celebration</title>
+    <h1>Congratulations! You solved it!</h1>
+    <style>
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .spin {
+            animation: spin 2s linear infinite;
+            width: 100px;
+            height: 100px;
+        }
+
+        .images {
+            display: flex;
+            gap: 10px;
+        }
+
+        .images img {
+            flex: 1 1 calc(33.333% - 10px); /* 3 images per row */
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="images">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+    </div>
+    <div class="envelope" onclick="openPopup()">
+        <img src="images//wax-seal.png" alt="Image of envelope">
+    </div>
+    
+    <div class="popup-container">
+        <div class="popup" id="popup">
+            <p>Dear Soul of the Future,</p>
+            <p>I write this letter to thank you for your efforts. My regrets can now dissolve.</p>
+            <br>
+            <p>With thanks,</p>
+            <p>A Witness from the Past</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    
+    <script src="/popup.js"></script>
+    <div class="images">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+        <img src="/images/fish.png" alt="fish" class="spin">
+    </div>
+</body>
+</html>
