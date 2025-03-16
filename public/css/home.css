@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(154, 144, 132)
+}
+
+.popup {
+    background: blanchedalmond;
+    width: 65%;
+    padding: 1%;
+    margin-top: 7%;
+    font-size: 0.9em;
+    position: absolute;
+    top: 100%;
+    left: 47%;
+    transform: translate(-0%, -70%) scale(0);
+    visibility: hidden;
+    z-index: 1000;
+    align-content: start;
+    text-align: left;
+    margin-left: 2%;
+    transition: ease-in-out;
+  }
+
+  .popup img {
+    width: 30%;
+    object-fit: cover;
+  }
+  
+  .open-popup {
+    visibility: visible;
+    top: 35%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: ease-in-out;
+  }
+
+  .envelope {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+  }
